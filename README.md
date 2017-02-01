@@ -1,4 +1,13 @@
-Run:
+# K-means Iris clustering example with Spark and Scala
+
+[Iris flower data set (Wikipedia)](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+[Iris data set](https://archive.ics.uci.edu/ml/datasets/Iris)
+
+[Spark K-means clustering](http://spark.apache.org/docs/latest/mllib-clustering.html)
+
+
+### Run
 
 ```
 sbt "run-main chapter01.IrisKMeans" 2> errors.out
@@ -10,7 +19,9 @@ Or start from sbt console:
 run
 ```
 
-Expected output (brief):
+### Output 
+
+Brief:
 
 ```
 [info] Set current project to spark-mllib-iris (in build file:/.../recbook/spark-mllib-iris/)
@@ -22,7 +33,7 @@ Within Set Sum of Squared Errors = 78.94084142614648
 [success] Total time: 15 s, completed 31 Jan. 2017 19:18:50
 ```
 
-Full output:
+Full:
 
 ```
 [info] Running chapter01.IrisKMeans 

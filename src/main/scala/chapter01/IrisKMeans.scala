@@ -8,16 +8,6 @@ import scala.io.Source
 
 /**
   * Created by AZ on 31.01.2017
-  *
-  * About Iris Data Set:
-  *   https://archive.ics.uci.edu/ml/datasets/Iris
-  *
-  * Data file included in resources:
-  *   https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
-  *
-  * Spark K-means clustering:
-  *   http://spark.apache.org/docs/latest/mllib-clustering.html
-  *
   */
 object IrisKMeans {
 
